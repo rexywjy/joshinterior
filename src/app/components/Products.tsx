@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Products() {
     const items = [
       {
@@ -62,9 +64,11 @@ export default function Products() {
               style={{animationDelay: `${index * 0.1}s`}}
             >
               <div className="relative overflow-hidden">
-                <img 
+                <Image 
                   src={item.image} 
                   alt={item.title} 
+                  width={600}
+                  height={400}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                 />
                 <div className="absolute top-4 left-4">

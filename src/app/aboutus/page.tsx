@@ -15,7 +15,7 @@ export default function AboutUs() {
         <div className="text-center mb-12">
           <h2 className="section-title text-wood-primary font-serif mb-4">Get In Touch</h2>
           <p className="text-xl text-wood-dark max-w-3xl mx-auto">
-            Ready to transform your space? We'd love to hear about your project and discuss how we can bring your vision to life.
+            Ready to transform your space? We&apos;d love to hear about your project and discuss how we can bring your vision to life.
           </p>
         </div>
         
