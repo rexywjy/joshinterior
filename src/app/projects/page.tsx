@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const projects = [
     {
       title: "Minimalist Apartment",
@@ -56,7 +58,7 @@ export default function Projects() {
           <h1 className="hero-title text-wood-primary font-serif mb-6">Our Portfolio</h1>
           <p className="text-xl text-wood-dark max-w-3xl mx-auto">
             Explore our collection of completed projects that showcase our expertise in creating beautiful, 
-            functional spaces that exceed our clients' expectations.
+            functional spaces that exceed our clients&apos; expectations.
           </p>
         </div>
 
@@ -68,9 +70,11 @@ export default function Projects() {
               style={{animationDelay: `${index * 0.1}s`}}
             >
               <div className="relative overflow-hidden">
-                <img 
+                <Image 
                   src={project.image} 
                   alt={project.title} 
+                  width={600}
+                  height={400}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                 />
                 <div className="absolute top-4 left-4">
@@ -120,7 +124,7 @@ export default function Projects() {
             Ready to Start Your Project?
           </h2>
           <p className="text-wood-dark mb-8 max-w-2xl mx-auto">
-            Let's discuss your vision and create a space that perfectly reflects your style and needs. 
+            Let&apos;s discuss your vision and create a space that perfectly reflects your style and needs. 
             Contact us today for a free consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

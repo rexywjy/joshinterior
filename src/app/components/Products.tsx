@@ -110,7 +110,7 @@ export default function Products() {
         {/* CTA */}
         <div className="text-center mt-12 animate-fade-in-up">
           <p className="text-wood-dark mb-6">
-            Can't find what you're looking for? We create custom solutions tailored to your needs.
+            Can&apos;t find what you&apos;re looking for? We create custom solutions tailored to your needs.
           </p>
           <button className="bg-wood-primary hover:bg-wood-dark text-white px-8 py-3 rounded-lg font-semibold shadow-wood hover:shadow-wood-lg transition-all duration-300 hover:-translate-y-1">
             Request Custom Design

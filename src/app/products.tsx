@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Products() {
     const items = [
       {
@@ -26,7 +28,7 @@ export default function Products() {
               key={index}
               className="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition"
             >
-              <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
+              <Image src={item.image} alt={item.title} width={400} height={300} className="w-full h-48 object-cover" />
               <div className="p-6 text-left">
                 <h3 className="font-bold text-lg mb-2">{item.title}</h3>
                 <p className="text-gray-600">{item.description}</p>
